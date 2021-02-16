@@ -1,13 +1,34 @@
 # Landing Page Project
 
 ## Table of Contents
+* Changings to HTML
+* Changings to CSS
+* Javascript
+  - Interactive navbar creation
+  - Scroll to anchor
+  - Active class to navbar
 
-* [Instructions](#instructions)
+## Changings in HTML
 
-## Instructions
+As given HTML was a plein HTML so in order to apply CSS and Javascript, required classes and Ids are being added. Some structures are also being chaged like; Ul is being added for Navbar, another Ul is being added for hamburger menu. ScrollTo fuctions are being added so that we can get interactive navbar.
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## Changings to CSS
 
-To get started, open `js/app.js` and start building out the app's functionality
+Hamburger navbar is being styled with CSS. The width and display of sections is also being adjested in order to properly interact with hamburger navbar. Media queries are being added in order to get responsiveness of landing page. 
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## Javascript
+
+* Interactive Navbar
+
+Firstly, a fuction is created to the hamburger navbar can be displyed and hide on click. An event is created to that nav bar can be opened and closed on click.
+
+*  Scroll to anchor
+
+Secondly, Click events are created so that landing page can move to the anchor on click to navbar tab.
+
+* Active Class added
+
+An active class is being added to landing page to the tabs of navbar displayed active on scrolling.
+
+
+
